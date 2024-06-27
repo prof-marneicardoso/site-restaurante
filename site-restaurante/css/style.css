@@ -1,5 +1,9 @@
 
 
+:root {
+    --cor-01: #f9f9f9;
+}
+
 nav .row {
     height: 0;
 }
@@ -11,6 +15,7 @@ header {
     font-weight: 700;
     color: #ffffff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -28,6 +33,38 @@ header {
     flex-direction: column;
 }
 
-.modal-footer li {
+/* .modal-footer li { */
+li {
     list-style-type: none;
+}
+
+section {
+    margin: auto;
+}
+
+#icones img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icone {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* border: solid 1px red; */
+}
+
+.icone a {
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.icone span {
+    font-size: 2rem;
 }
